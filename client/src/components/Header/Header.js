@@ -42,7 +42,7 @@ function Header() {
             <button className="profile-btn">Profile</button>
             {showDropdown && (
               <div className="dropdown-content">
-                <a href="/account/home">My profile</a>
+                <a href="/account/Home">My profile</a>
                 <a href="/account/edit">Edit Profile</a>
                 <a href="/account/upcoming">Upcoming Events</a>
                 <a href="/account/attended">Events Attended</a>

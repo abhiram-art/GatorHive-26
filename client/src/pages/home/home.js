@@ -80,8 +80,8 @@ const Home = () => {
   }
 
   return (
-    <div className="home-main-cont">
-      <div className="home">
+    <div className="Home-main-cont">
+      <div className="Home">
         <div className="carousels">
           <div className="carousel">
             <SimpleImageSlider

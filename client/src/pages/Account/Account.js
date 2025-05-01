@@ -21,8 +21,8 @@ const Account = () => {
             className="profile-avatar"
           />
           <a
-            href="/account/home"
-            className={location.pathname === `${url}/home` ? "active" : ""}
+            href="/account/Home"
+            className={location.pathname === `${url}/Home` ? "active" : ""}
           >
             Home
           </a>
@@ -53,7 +53,7 @@ const Account = () => {
         </div>
         <div className="content">
           <Switch>
-            <Route exact path={`${url}/home`} component={Calendar} />
+            <Route exact path={`${url}/Home`} component={Calendar} />
             <Route exact path={`${url}/edit`} component={EditProfile} />
             <Route exact path={`${url}/upcoming`} component={UpcomingEvents} />
             <Route exact path={`${url}/attended`} component={EventsAttended} />
